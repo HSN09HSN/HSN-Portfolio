@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSN pro-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="Nom">
+            HASINIRINA Andr...
+        </div>
+        <div class="emplacement" id="emplacement">
+            .king
+        </div>
+    </header>
+    
+    <div class="accueil">
+        <div class="background">
+            <img src="images/logo.jpg" class="background-img" alt="background">
+        </div>
+        
+        <div class="description">
+            <div class="pdp">
+                <img src="images/pdp.jpg" class="pdp-img" alt="photo de profil">
+            </div>
+            <div class="Qui">
+                HASINIRINA Andrianarivo dit Hasina et connu par HSN, un jeune Malagasy qui veut aller très loin sur le domaine de L'Informatique et la Technologie 
+            </div>
+            <div class="motivation">
+                <p class="citation">"NEVER GIVE UP"</p>
+                <p class="devise"><small>Croire ★ Esperer ★ Achever</small></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about" id="section-about">  <!-- AJOUT DE L'ID ICI -->
+        <p class="TITRE">#A_PROPOS</p>
+        <div class="bouton">
+            <button id="prev">&larr;</button>
+            <button id="next">&rarr;</button>  <!-- SUPPRIMÉ LE </button> EN DOUBLE -->
+        </div>
+        <div id="first">
+            <div class="about_descr">
+                <p class="moi">
+                    Étudiant passionné par l'informatique et la high tech, je crée et explore des projets innovants pour résoudre des problèmes complexes.
+                </p>
+            </div>
+            <div class="profil">
+                <img src="images/moi.jpg" class="mon-profil" alt="photo de profil">
+            </div>
+        </div>
+        <div id="second" class="hide">
+            <div class="about_descr">
+                <p class="moi">
+                    Curieux et déterminé, je cherche constamment à apprendre et à transformer les idées en solutions concrètes.
+                </p>
+            </div>
+            <div class="profil">
+                <img src="images/moi-2.png" class="mon-profil" alt="photo de profil 2">
+            </div>
+        </div>
+    </div>
+    
+    <div class="projet" id="section-projet"> 
+        <p class="TITRE">#PROJET</p>
+        
+        <p class="titre">➤ DÉVELOPPEMENT WEB<br>————————————</p>        
+        <div class="projet-web">
+            <div class="listes">
+                <div class="poster">  <!-- CHANGÉ p EN div -->
+                    <img src="images/portfolio.png" class="maquette" alt="projet portfolio">
+                </div>
+                <div class="poster">  <!-- CHANGÉ p EN div -->
+                    <img src="images/ikoizana.png" class="maquette" alt="projet ikoizana">
+                </div>
+            </div>
+        </div>
+        
+        <p class="titre">➤ LIFE &amp; ART<br>—————————</p>
+        <div class="projet-art">
+            <div class="listes">
+                <div class="poster">  <!-- CHANGÉ p EN div -->
+                    <img src="images/1.png" class="maquette" alt="projet art 1">
+                </div>
+                <div class="poster">  <!-- CHANGÉ p EN div -->
+                    <img src="images/2.png" class="maquette" alt="projet art 2">
+                </div>
+                <div class="poster">  <!-- CHANGÉ p EN div -->
+                    <img src="images/3.png" class="maquette" alt="projet art 3">
+                </div>
+                <div class="poster">  <!-- CHANGÉ p EN div -->
+                    <img src="images/4.png" class="maquette" alt="projet art 4">
+                </div>
+                <div class="poster">  <!-- CHANGÉ p EN div -->
+                    <img src="images/2.png" class="maquette" alt="projet art 2">
+                </div>
+                <div class="poster">  <!-- CHANGÉ p EN div -->
+                    <img src="images/5.png" class="maquette" alt="projet art 5">
+                </div>
+                <div class="poster">  <!-- CHANGÉ p EN div -->
+                    <img src="images/moi-1.png" class="maquette" alt="projet art moi">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contact" id="section-contact">
+        <p class="TITRE">#CONTACT</p>
+        <p>Contactez-moi si vous avez besoin plus d'informations ou de mon aide</p>
+        <p>————— GMAIL —————</p>       
+        <p class="mail">hasinirinaandrianarivo446@gmail.com</p>
+        <div class="champ">
+            <input type="text" placeholder="Nom" id="nom" value="">  <!-- SUPPRIMÉ value="" ou laissé vide -->
+            <input type="email" placeholder="Email" id="mail">
+            <textarea placeholder="Message" id="message"></textarea>
+            <p class="envoyer" id="share">ENVOYER</p>
+        </div>
+        <p>—————— OU ——————</p>
+        <p class="social">
+            <!-- JS -->
+        </p>
+        
+        <div class="contacts">
+            <div class="contact1">  <!-- CHANGÉ p EN div -->
+                <img src="images/WhatsApp.png" class="réseau whatsapp" alt="WhatsApp">  <!-- CORRIGÉ alt -->
+            </div>
+            <div class="contact1">  <!-- CHANGÉ p EN div -->
+                <img src="images/github.png" class="réseau github" alt="Github">
+            </div>
+            <div class="contact1">  <!-- CHANGÉ p EN div -->
+                <img src="images/x.png" class="réseau x" alt="X">
+            </div>
+            <div class="contact1">  <!-- CHANGÉ p EN div -->
+                <img src="images/facebook.png" class="réseau facebook" alt="Facebook">
+            </div>
+        </div>                  
+    </div>
+    
+    <footer>
+        <hr>
+        <p class="signature">HSN</p>
+        <p>© 2026 - tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
